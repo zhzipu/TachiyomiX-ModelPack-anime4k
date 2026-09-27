@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "anime4k",
+  "name": "Anime4K 模型",
+  "models": [
+    {
+      "key": "anime4k",
+      "name": "Anime4K Original x2",
+      "engine": "anime4k",
+      "assetPath": "anime4k",
+      "scales": [2],
+      "denoiseLevels": [],
+      "precisions": [0, 1, 2, 3],
+      "supportsNpu": false,
+      "defaults": { "scale": 2, "precision": 0 }
+    }
+  ],
+  "options": {
+    "preloadPages": [1, 2, 3, 5, 8],
+    "gpuPerformanceModes": [0, 1, 2],
+    "tileSizes": [64, 96, 128, 192, 256],
+    "maxProcessingResolution": { "width": 0, "height": 0 },
+    "maxResolution": { "width": 0, "height": 0 },
+    "fp16Arithmetic": true
+  }
+}

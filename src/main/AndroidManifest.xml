@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-feature
+        android:name="tachiyomix.modelpack"
+        android:required="false" />
+
+    <application
+        android:hasCode="false"
+        android:label="${modelpackName}">
+
+        <meta-data
+            android:name="tachiyomix.modelpack.id"
+            android:value="${modelpackId}" />
+        <meta-data
+            android:name="tachiyomix.modelpack.name"
+            android:value="${modelpackName}" />
+    </application>
+</manifest>
